@@ -7,10 +7,15 @@ body {
   color: white;
   height: 100vh;
   background: linear-gradient(
-    200.96deg,
-    #fedc2a -29.09%,
-    #dd5789 51.77%,
-    #7a2c9e 129.35%
+    55deg,
+    #212121 0%,
+    #212121 40%,
+    #323232 calc(40% + 1px),
+    #323232 60%,
+    #008f95 calc(60% + 1px),
+    #008f95 70%,
+    #14ffec calc(70% + 1px),
+    #14ffec 100%
   );
   font-family: sans-serif;
   overflow-y: hidden;
@@ -19,7 +24,7 @@ body {
   align-items: center;
 }
 
-button {
+/* button {
   background-color: white;
   padding: 10px 20px;
   border-radius: 10px;
@@ -57,4 +62,4 @@ a:hover {
   justify-content: center;
   align-items: center;
   margin: 20px 0;
-}
+} */
