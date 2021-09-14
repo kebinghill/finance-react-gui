@@ -4,14 +4,6 @@ import './App.global.css';
 
 import MainView from './MainView';
 
-const Hello = () => {
-  return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
-  );
-};
-
 export default function App() {
   return (
     <Router>

@@ -2,6 +2,12 @@
  * @NOTE: Prepend a `~` to css file paths that are in your node_modules
  *        See https://github.com/webpack-contrib/sass-loader#imports
  */
+
+@font-face {
+  font-family: 'Encode_Sans_SC';
+  src: url(Encode_Sans_SC/EncodeSansSC-VariableFont_wdth\wght.ttf);
+}
+
 body {
   position: relative;
   color: white;
@@ -17,11 +23,31 @@ body {
     #14ffec calc(70% + 1px),
     #14ffec 100%
   );
-  font-family: sans-serif;
+  font-family: Encode_Sans_SC;
   overflow-y: hidden;
   display: flex;
-  justify-content: center;
+}
+
+.income {
+  display: flex;
+  justify-content: space-evenly;
+  width: 250px;
+}
+
+.title-input {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+}
+
+#annual-income-input {
+  width: 125px;
+  height: 30px;
+}
+
+#state-select {
+  width: 80px;
+  color: black;
 }
 
 /* button {
@@ -57,9 +83,4 @@ a:hover {
   text-decoration: none;
 }
 
-.Hello {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0;
-} */
+*/
